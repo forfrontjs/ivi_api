@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background: #100e19;
+    color: grey;
+    font-weight: 800;
+    padding: 15px 0;
+}
+.header__left{
+    display: flex;
+    column-gap: 40px;
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.header__menu li:hover{
+    color: white;
+    cursor: pointer;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__see{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background: #f30745;
+    color: white;
+    font-weight: 800;
+
+}
+.banner{
+    background: #100e19;
+
+}
+.banner__one{
+    background: url("https://thumbs.dfs.ivi.ru/storage38/contents/7/9/2616acbb4246c54e2a50bb8df37f3d.jpg/392x600/?q=60")center/cover no-repeat;
+    height: calc(100vh - 105px);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-left: 40px;
+    color: white;
+    padding-bottom: 80px;
+}
+.banner__title{
+    font-size: 66px;
+    width: 35%;
+}
+.banner__desc{
+    margin: 40px 0;
+    width: 35%;
+    font-size: 22px;
+    font-weight: 700;
+
+
+}
+.banner__btn{
+    width: 220px;
+    height: 45px;
+    border-radius: 25px;
+    background: #f30745;
+    color: white;
+    font-weight: 800;
+    border: none;
+}
+.banner__btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.banner__btns button{
+    width: 47%;
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    border-radius: 25px;
+    background: #100e19;
+}
+.new{
+    padding: 40px 0;
+    background: #100e19;
+}
+.new__one{
+    width: 155px;
+    height: 245px;
+
+}
+.new__title{
+    color: white;
+    margin-bottom: 30px;
+}
+.new__back{
+    width: 100%;
+    height: 100%;
+    background: url("https://thumbs.dfs.ivi.ru/storage38/contents/7/9/2616acbb4246c54e2a50bb8df37f3d.jpg/392x600/?q=60")center/cover no-repeat;
+    border-radius: 15px;
+}
+.new__one__title{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+.new__pod{
+    color: #f30745;
+}
+.new__all{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.new__back:hover{
+    width: 170px;
+    height: 260px;
+    
+}
